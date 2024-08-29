@@ -1,0 +1,37 @@
+# Ignore all .out files
+*.out
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+/build/
+/dist/
+
+/# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore database backup files
+backups/*
+*.bak
+*.backup
+
+# Directories to ignore
+trans/*
+
+# Python cache files
+**__pycache__/
+lib/__pycache__/
+*.pyc
+
+# Ignore python virtual environment
+venv/
